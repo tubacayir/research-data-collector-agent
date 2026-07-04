@@ -1,4 +1,3 @@
-import os
 from datetime import datetime
 
 import pandas as pd
@@ -61,4 +60,4 @@ if __name__ == "__main__":
         result_count=10
     )
 
-    agent.run(
+    agent.run()
